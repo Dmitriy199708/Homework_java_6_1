@@ -8,7 +8,7 @@ import org.junit.jupiter.params.provider.CsvSource;
 public class VacationPerYearTest {
 
     @ParameterizedTest
-    @CsvFileSource(resources = "test.csv")
+    @CsvFileSource(resources = "/test.csv")
 //    @CsvSource({
 //            "3,10_000,3_000,20_000",
 //            "2,100_000,60_000,150_000",
