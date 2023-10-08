@@ -11,8 +11,7 @@ public class VacationPerYearTest {
     @CsvFileSource(resources = "/test.csv")
 //    @CsvSource({
 //            "3,10_000,3_000,20_000",
-//            "2,100_000,60_000,150_000",
-//            "1,5_000,4_000,7_000"
+//            "2,100_000,60_000,150_000"
 //    })
     public void calculationOfVacationDaysWithCorrectData(int expected, int income, int expenses, int theshold) {
         VacationPerYear service = new VacationPerYear();
